@@ -127,6 +127,7 @@ eco-buddy-ai/
 ├── emissions.py               # Carbon emission calculations
 ├── energy_audit.py            # Home appliance energy, cost, and solar ROI calculations
 ├── gamification.py            # XP, levels, streaks, challenges, and achievement badges
+├── household.py               # Household composition and per-capita footprint allocation
 ├── goals.py                   # Reduction goals, pathways, progress status, and category allocation
 ├── llm_parser.py              # Parses natural-language quick-log entries (Gemini/Groq)
 ├── marketplace.py             # Trip emissions, transit comparisons, and carbon offsets
@@ -146,6 +147,7 @@ eco-buddy-ai/
 │   ├── Emission_Factors.py
 │   ├── Gamification.py
 │   ├── Home_Energy_Audit.py
+│   ├── Household.py
 │   ├── Reduction_Goals.py
 │   ├── Route_Planning.py
 │   └── Water_Footprint.py
@@ -161,6 +163,7 @@ eco-buddy-ai/
 ├── test_emissions.py
 ├── test_energy_audit.py
 ├── test_gamification.py
+├── test_household.py
 ├── test_goals.py
 ├── test_marketplace.py
 ├── test_recommendations.py
@@ -194,6 +197,7 @@ eco-buddy-ai/
 | `emissions.py`       | Calculates annual carbon emissions                 |
 | `energy_audit.py`    | Calculates appliance energy use, cost, and solar payback/ROI |
 | `gamification.py`    | Manages XP, levels, streaks, challenges, and badges |
+| `household.py`       | Splits shared household emissions into a per-person footprint and compares it to per-capita benchmarks |
 | `goals.py`           | Reduction goal pathways, on-track status, projections, and per-category reduction allocation |
 | `llm_parser.py`      | Parses natural-language quick-log text into structured data |
 | `marketplace.py`     | Calculates trip emissions, transit comparisons, and carbon offsets |
